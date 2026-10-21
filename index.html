@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İyi Ki Doğdun! 💜</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Quicksand (Kalın/Vurgulu 700 ve 800 eklendi) -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-100 via-purple-50 to-pink-100 min-h-screen text-gray-700 flex flex-col items-center justify-start p-4 sm:p-8">
+
+    <!-- Ana Konteyner -->
+    <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-6 sm:p-8 flex flex-col items-center gap-6 border border-purple-200">
+        
+        <!-- Başlık -->
+        <div class="text-center">
+            <span class="text-4xl animate-bounce inline-block">🎂✨</span>
+            <!-- Burada fontu 800 (extrabold) yapıp rengi biraz daha canlandırdık ve hafif gölge ekledik -->
+            <h1 class="text-3xl sm:text-4xl font-[800] text-purple-900 mt-2 tracking-wide drop-shadow-sm">İyi Ki Doğdun Arkadaşım!</h1>
+            <p class="text-sm font-semibold text-purple-500 mt-1">Bu sürpriz senin için...</p>
+        </div>
+
+        <!-- Video / Reels Alanı -->
+        <div class="w-full aspect-[9/16] max-h-[350px] bg-purple-200 rounded-2xl overflow-hidden shadow-inner flex items-center justify-center relative group">
+            <!-- Buraya kendi videonu ekleyebilirsin -->
+            <video class="w-full h-full object-cover" controls>
+                <source src="dogum_gunu_video.mp4" type="video/mp4">
+                Tarayıcınız video etiketini desteklemiyor.
+            </video>
+        </div>
+
+        <!-- Doğum Günü Mesajı Alanı -->
+        <div class="w-full bg-purple-50/70 p-4 rounded-2xl border border-purple-100 text-center">
+            <h2 class="font-bold text-purple-700 mb-1">Göz Atmanı İstediğim Not 💌</h2>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                İçten doğum günü mesajını buraya yazabilirsin. Birlikte geçirdiğimiz güzel anlar, iyi ki varsın dediğim anlar... Burayı dilediğin gibi uzatabilirsin!
+            </p>
+        </div>
+
+
+        
+
+    </div>
+
+</body>
+</html>
